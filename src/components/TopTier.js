@@ -4,12 +4,8 @@ import { PiArrowFatRight } from "react-icons/pi";
 
 
 
+
 const Frame = () => {
-  	
-  	const onGroupImageClick = useCallback(() => {
-    		// Add your code here
-  	}, []);
-  	
   	
   	const onGroupContainerClick = useCallback(() => {
     		// Add your code here
@@ -20,7 +16,6 @@ const Frame = () => {
 				Pilihan teratas untuk diadopsi
 			</h1>
 			<div className="w-full relative overflow-x-auto flex flex-row items-start justify-start gap-[23px] text-left text-base font-poppins">
-				
 					<div className=" w-[249px] relative h-[376px] shrink-0 cursor-pointer " onClick={onGroupContainerClick}>
 						<div className="absolute top-[0px] left-[0px] rounded-lg w-[249px] h-[376px] bg-[#89BBD5]" alt="" src="" />
 						<img className="absolute top-[11.51px] left-[8px] rounded-lg shadow-xl w-[233px] h-[235.3px] object-contain bg-white" alt="" src="img/anggora.png" />
