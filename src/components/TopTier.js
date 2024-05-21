@@ -81,7 +81,8 @@ const Frame = () => {
 					</div>
 					<div className="w-[249px] relative h-[376px] shrink-0">
 						<div className="absolute top-[0px] left-[0px] rounded-lg w-[249px] h-[376px] bg-[#89BBD5]" alt="" src="" />
-						<img className="absolute top-[11.51px] left-[8px] rounded-lg shadow-xl w-[233px] h-[235.3px] object-cover bg-white" alt="" src="img/scothis.JPG" />
+						<img className="absolute top-[11.51px] left-[8px] rounded-lg shadow-xl 
+						 object-cover bg-white" alt="" src="img/scothis.JPG" />
 						<div className="absolute top-[24px] left-[24px] text-mini leading-[26px] rounded-full bg-[#0C3D55]  text-white shadow-md px-3">Adopsi</div>
 						<div className="absolute top-[292.87px] left-[18px] leading-[26px] text-white">Pemilik Sebelumnya</div>
 						<b className="absolute top-[260.9px] left-[18px] leading-[26px] text-[#0C3D55]">Kucing Scothis</b>
