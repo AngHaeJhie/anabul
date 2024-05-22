@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Navbar/>
+        <Navbar />
       </div>
-        <Container/>
-        <Category/>
-        <Populer/>
-        <TopTier/>
-        <Footer/>
+      <Container />
+      <Category />
+      <Populer />
+      <TopTier />
+      <Footer />
     </div>
   );
 }
