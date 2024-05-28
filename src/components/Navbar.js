@@ -10,12 +10,12 @@ const Navbar = () => {
   const style = { color: "white", fontSize: "25px" }
 
   return (
-    <nav className="bg-steelblue-200 w-[1340px]">
+    <nav className="bg-steelblue-200 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 ">
-              <img className="w-full relative max-w-full overflow-hidden left-11 h-[47px] object-cover" alt="" src="img/logo.png" />
+              <img className="w-full relative max-w-full overflow-hidden left-11 h-[47px] object-cover" alt="" src="img/logo.webp" />
             </div>
             <div className="hidden md:block ">
               <div className="ml-20 flex items-baseline space-x-4 ">
@@ -28,7 +28,7 @@ const Navbar = () => {
               <div className="rounded-[10px] flex flex-row items-center justify-center py-3 px-8 gap-[16px]">
                 <img className="w-10 relative h-10 object-cover rounded-[50%]" alt="" src="img/user.png" />
                 <div className="relative font-semibold text-white font-Poppins">Umi Khoirunnisa
-                  <button type='button' className='bg-transparent w-100 relative  overflow-hidden shrink-0 inline-flex  h-full items-center justify-center rounded-md px-2 top-1 text-slategray hover:text-darkslategray-200 cursor-pointer' onClick={toggleUser}> <IoIosArrowDown style={style} /></button>
+                  <button type='button' className='bg-transparent w-full relative  overflow-hidden shrink-0 inline-flex  h-full items-center justify-center rounded-md px-2 top-1 text-slategray hover:text-darkslategray-200 cursor-pointer' onClick={toggleUser}> <IoIosArrowDown style={style} /></button>
                 </div>
                 {isUserOpen && (
                   <div className="absolute top-[60px] left-[50px] w-44 bg-white border border-gray-300 rounded-md shadow-lg">

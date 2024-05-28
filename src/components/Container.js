@@ -57,7 +57,7 @@ const Container = () => {
                     <p className="m-0">Adopsi Hewan Peliharaan</p>
                 </div>
 
-                <img className="absolute top-[15px] left-[0px] rounded-t-none rounded-br-none rounded-bl-21xl w-[570px] h-[456px] object-cover" alt="" src="img/gambar1.jpeg" />
+                <img className="absolute top-[15px] left-[0px] rounded-t-none rounded-br-none rounded-bl-21xl w-[570px] h-[456px] object-cover" alt="" src="img/gambar1.webp" />
             </div>
             <div className="absolute top-[467px] left-[270px] w-[783px] h-20 text-sm">
                 <div className="absolute top-[0px] left-[0px] shadow-[4px_4px_4px_rgba(0,_0,_0,_0.4)] rounded-[50px] bg-steelblue-100 w-[783px] h-20" />
