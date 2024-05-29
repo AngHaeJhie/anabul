@@ -27,22 +27,22 @@ const Footer = () => {
                     </div>
                     <div className="pr-3 pl-5">
                         <div className="font-bold text-[#0C3D55]">Layanan</div>
-                        <ul>
+                        <ul className='list-none pr-3 pl-1'>
                             <li>Adopsi</li>
                             <li>Kontak</li>
                         </ul>
                     </div>
                     <div className="pr-3 pl-5">
                         <div className="font-bold text-[#0C3D55]">Features</div>
-                        <ul>
-                            <li>Kategori Anabul</li>
-                            <li>Detail Anabul</li>
-                            <li>Bantuan</li>
-                        </ul>
+                            <ul className='list-none pr-3 pl-1'>
+                                <li>Kategori Anabul</li>
+                                <li>Detail Anabul</li>
+                                <li>Bantuan</li>
+                            </ul>                   
                     </div>
                     <div className="w-1/4 pr-5">
                         <div className="font-bold text-[#0C3D55]">Hubungi Kami</div>
-                        <ul>
+                        <ul className='pr-3 pl-1' >
                             <li className="flex items-center gap-2">
                                 <div className="w-5 h-5 rounded-full"><FaWhatsapp color='#0C3D55' /></div>
                                 <span>+62 857 9898 0011</span>
