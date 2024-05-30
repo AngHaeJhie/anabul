@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const Populer = () => {
     const [isOpen, setIsOpen] = useState(false);
+<<<<<<< HEAD
 
     return (
         <div className="container-2">
@@ -47,3 +48,14 @@ const Populer = () => {
 };
 
 export default Populer;
+=======
+  
+    return (
+        <div>
+            <h1>Ini Populer</h1>
+        </div>
+    );
+  };
+  
+  export default Populer;
+>>>>>>> eea1b879ec2a3f51c39c471a9cd3418e9c3d317e
