@@ -37,7 +37,7 @@ const Populer = () => {
                     <div className="absolute top-[141px] left-[51px] leading-[26px] font-Poppins">Poodle</div>
                 </div>
                 <div className="absolute top-[248px] left-[1063px] w-[310.1px] h-[222px]">
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[221px] object-cover" alt="" src="img/persia.webp" />
+                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[222px] object-cover" alt="" src="img/persia.webp" />
                     <img className="absolute top-[171px] left-[10px] rounded-4xl w-[145px] h-[35px]" alt="" src="img/Rectangle 11.png" />
                     <div className="absolute top-[172px] left-[52px] leading-[26px] font-Poppins">Persia</div>
                 </div>
