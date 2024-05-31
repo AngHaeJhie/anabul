@@ -14,11 +14,11 @@ const Contact = () => {
             <div className="w-[575px] flex flex-col items-start justify-start gap-[39px] min-w-[575px] max-w-full lg:flex-1 mq750:gap-[19px] mq750:min-w-full">
               <div className="self-stretch flex flex-col items-start justify-start gap-[17px] max-w-full">
                 <div className="w-[474px] flex flex-row items-start justify-left py-0 px-5 box-border max-w-full">
-                  <b className="w-[304px] relative leading-[26px] font-semibold inline-block shrink-0 text-left text-[#0C3D55]">
+                  <b className="w-[304px] relative pl-10 leading-[26px] font-semibold inline-block shrink-0 text-center text-[#0C3D55]">
                     Hubungi Kami
                   </b>
                 </div>
-                <p className="m-0 self-stretch relative text-xl leading-[35px] text-steelblue-400 text-left mq450:text-base mq450:leading-[28px]">
+                <p className="m-0 self-stretch relative text-xl leading-[35px] text-left mq450:text-base mq450:leading-[28px] text-[#286280]">
                   Jika Anda tertarik untuk mengadopsi salah satu kucing dan
                   anjing kami, mari kita tetap berkomunikasi
                 </p>

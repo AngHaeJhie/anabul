@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiUser } from 'react-icons/fi';
 
@@ -6,17 +6,30 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const dropdownRef = useRef(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setActiveLink(location.pathname);
   }, [location.pathname]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
- 
+
   return (
-    <nav className="bg-[#518CAB]">
+    <nav className="bg-[#518CAB] relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -30,7 +43,7 @@ const Navbar = () => {
                 <NavLink to="/populer" isActive={() => activeLink === '/populer'}>Populer</NavLink>
                 <NavLink to="/toptier" isActive={() => activeLink === '/toptier'}>TopTier</NavLink>
                 <NavLink to="/contact" isActive={() => activeLink === '/contact'}>Contact</NavLink>
-                </div>
+              </div>
             </div>
           </div>
           <div className="flex md:hidden">
@@ -53,7 +66,7 @@ const Navbar = () => {
                   />
                 )}
               </svg>
-              </button>
+            </button>
           </div>
           {isOpen && (
             <div className="md:hidden">
@@ -67,7 +80,7 @@ const Navbar = () => {
             </div>
           )}
           <div className="hidden md:flex md:items-center md:justify-end md:flex-1 lg:w-0">
-            <div className="ml-3 relative">
+            <div className="ml-3 relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
                 className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:shadow-solid"
@@ -91,15 +104,15 @@ const Navbar = () => {
   );
 }
 
-          const NavLink = ({ to, isActive, children }) => (
-            <Link
-              to={to}
-              className={`${
-                isActive() ? 'text-[#0C3D55] font-bold' : 'text-white'
-              } block px-3 py-2 rounded-md text-base  no-underline`}
-            >
-              {children}
-            </Link>
-          );
+const NavLink = ({ to, isActive, children }) => (
+  <Link
+    to={to}
+    className={`${
+      isActive() ? 'text-[#0C3D55] font-bold' : 'text-white'
+    } block px-3 py-2 rounded-md text-base  no-underline`}
+  >
+    {children}
+  </Link>
+);
 
-export default Navbar;
+export default Navbar;
