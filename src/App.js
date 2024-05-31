@@ -8,6 +8,7 @@ import TopTier from './components/TopTier';
 import Footer from './components/Footer';
 import Contact from './components/Contact'; 
 
+
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/populer" element={<Populer />} />
           <Route path="/toptier" element={<TopTier />} />
           <Route path="/contact" element={<Contact />} />
+
         </Routes>
         <Footer />
       </div>

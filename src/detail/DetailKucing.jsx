@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 import { GoLocation } from "react-icons/go";
 import { TbGenderGenderfluid } from "react-icons/tb";
-import { SlCalender } from "react-icons/sl";
 
 const DetailKucing = () => {
     const [isOpen, setIsOpen] = useState(false);
-
-    const style = {marginBotto:"10px", marginLeft:"4px" }
-
-    
     
       return (
         <div className="w-full relative bg-steelblue-200 overflow-hidden flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
@@ -49,7 +44,7 @@ const DetailKucing = () => {
                 <div className="w-[375px] flex flex-row items-start justify-start py-0 px-6 box-border max-w-full">
                   <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[20px] mq450:flex-wrap">
                     <div className="w-[140px] flex flex-row items-start justify-start gap-[36px]">
-                    <div className="h-[20px] w-[40px] relative z-[1]"> <SlCalender /> </div>
+                    <div className="h-[20px] w-[40px] relative z-[1]"> <TbGenderGenderfluid /> </div>
                       <div className="flex-1 flex flex-col items-start justify-start pt-[3px] px-0 pb-0">
                         <b className="self-stretch relative font-semibold z-[1] mq450:text-base">{`Usia : `}</b>
                       </div>
@@ -60,10 +55,10 @@ const DetailKucing = () => {
                   </div>
                 </div>
                 <div className="w-[344px] flex flex-row items-end justify-start gap-[23px] max-w-full mq450:flex-wrap">
-                  <div className="h-[30px] w-[60px] relative z-[1]"> <TbGenderGenderfluid style={style} /> </div>
+                  <div className="h-[20px] w-[40px] relative z-[1]"> <TbGenderGenderfluid /> </div>
                   <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-5 box-border min-w-[162px]">
                     <div className="self-stretch flex flex-row items-start justify-start">
-                      <div className="flex-1 relative font-semibold z-[2] mq450:text-base ">
+                      <div className="flex-1 relative font-semibold z-[2] mq450:text-base">
                         Jenis Kelamin :
                       </div>
                       <div className="w-[85px] relative font-medium text-center inline-block shrink-0 z-[1] ml-[-32px] mq450:text-base">
