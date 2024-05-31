@@ -71,7 +71,7 @@ const Navbar = () => {
           {isOpen && (
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <NavLink to="/" isActive={() => activeLink === '/'}>HBeranda</NavLink>
+                <NavLink to="/" isActive={() => activeLink === '/'}>Home</NavLink>
                 <NavLink to="/category" isActive={() => activeLink === '/category'}>Category</NavLink>
                 <NavLink to="/populer" isActive={() => activeLink === '/populer'}>Populer</NavLink>
                 <NavLink to="/toptier" isActive={() => activeLink === '/toptier'}>TopTier</NavLink>
