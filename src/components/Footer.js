@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="flex flex-wrap justify-between gap-8">
                     <div className="pr-3 pl-10">
                         <div className="flex items-center gap-2">
-                            <img src="img/logo.webp" alt="Logo" className="w-12 h-12" />
+                            <img src="img/logo.png" alt="Logo" className="w-12 h-12" />
                             <div>
                                 <p className="font-bold uppercase text-[#0C3D55]">ANABUL</p>
                                 <p className="text-sm">Buka Hati, Buka Rumah</p>
@@ -27,22 +27,22 @@ const Footer = () => {
                     </div>
                     <div className="pr-3 pl-5">
                         <div className="font-bold text-[#0C3D55]">Layanan</div>
-                        <ul className='list-none pr-3 pl-1'>
+                        <ul>
                             <li>Adopsi</li>
                             <li>Kontak</li>
                         </ul>
                     </div>
                     <div className="pr-3 pl-5">
                         <div className="font-bold text-[#0C3D55]">Features</div>
-                            <ul className='list-none pr-3 pl-1'>
-                                <li>Kategori Anabul</li>
-                                <li>Detail Anabul</li>
-                                <li>Bantuan</li>
-                            </ul>                   
+                        <ul>
+                            <li>Kategori Anabul</li>
+                            <li>Detail Anabul</li>
+                            <li>Bantuan</li>
+                        </ul>
                     </div>
                     <div className="w-1/4 pr-5">
                         <div className="font-bold text-[#0C3D55]">Hubungi Kami</div>
-                        <ul className='pr-3 pl-1' >
+                        <ul>
                             <li className="flex items-center gap-2">
                                 <div className="w-5 h-5 rounded-full"><FaWhatsapp color='#0C3D55' /></div>
                                 <span>+62 857 9898 0011</span>
@@ -60,11 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mb-0 pl-5 relative top-[19px]'>
-                <div className="absolute rounded-3xs w-20 h-20 bg-white bottom-0 mb-2 mx-6"/>
-                <img 
-                src='img/Animal Shelter.webp' 
-                alt='shelter' 
-                className="w-32 h-32 absolute bottom-0 mb-0" />
+                <img src='img/Animal Shelter.png' alt='shelter' className="w-32 h-32 absolute bottom-0 mb-0" />
             </div>
 
             <div className="text-sm py-3 bg-[#0C3D55] ">
