@@ -7,7 +7,7 @@ const KategoriAnjing = () => {
       <div className="h-80 relative [background:linear-gradient(0deg,#fcfeff,_#89bbd5_71.6%)]">
         <img
           className="h-72 flex absolute top-[40px] left-[577px] w-[283px] h-[271px] object-cover"
-          src="img/bichon.webp"
+          src="img/bichonn.webp"
         ></img>
       </div>
       <div>
@@ -116,7 +116,7 @@ const KategoriAnjing = () => {
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/Golden rotreiver.webp"
+              src="img/Golden retriever.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -150,7 +150,7 @@ const KategoriAnjing = () => {
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/german.webp"
+              src="img/german stepherd.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -167,7 +167,7 @@ const KategoriAnjing = () => {
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/Dachshund.webp"
+              src="img/dachshund.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -234,13 +234,13 @@ const KategoriAnjing = () => {
       </section>
 
       <div
-        className="mx-auto cursor-pointer py-3 pr-5 pl-[32px]  w-[253.9px] shadow-[4px_4px_4px_rgba(12,_61,_85,_0.4)] text-[#FCFEFF] bg-[#286280]
+        className="mx-auto cursor-pointer py-3 mb-3 pr-5 pl-[32px]  w-[253.9px] shadow-[4px_4px_4px_rgba(12,_61,_85,_0.4)] text-[#FCFEFF] bg-[#286280]
          rounded-[20px] box-border flex flex-row items-start justify-center z-[1] border-[1px] border-solid border-[#286280]
           hover:bg-[#0C3D55]"
       >
         <a
-          href=""
-          className="no-underline mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold font-heading-8-semibold text-gray text-left inline-block min-w-[65px] z-[1] mq450:text-[19px]"
+          href="/kategorianjing"
+          className=" no-underline mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold font-heading-8-semibold text-gray text-left inline-block min-w-[65px] z-[1] mq450:text-[19px]"
         >
           Lihat Selengkapnya
         </a>
