@@ -38,11 +38,9 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <NavLink to="/" isActive={() => activeLink === '/'}>Home</NavLink>
-                <NavLink to="/category" isActive={() => activeLink === '/category'}>Category</NavLink>
-                <NavLink to="/populer" isActive={() => activeLink === '/populer'}>Populer</NavLink>
-                <NavLink to="/toptier" isActive={() => activeLink === '/toptier'}>TopTier</NavLink>
-                <NavLink to="/contact" isActive={() => activeLink === '/contact'}>Contact</NavLink>
+                <NavLink to="/" isActive={() => activeLink === '/'}>Beranda</NavLink>
+                <NavLink to="/kategorikucing" isActive={() => activeLink === '/kategorikucing'}>Adopsi</NavLink>
+                <NavLink to="/chat" isActive={() => activeLink === '/chat'}>Kontak</NavLink>
               </div>
             </div>
           </div>
@@ -72,10 +70,8 @@ const Navbar = () => {
             <div className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <NavLink to="/" isActive={() => activeLink === '/'}>Beranda</NavLink>
-                <NavLink to="/category" isActive={() => activeLink === '/category'}>Category</NavLink>
-                <NavLink to="/populer" isActive={() => activeLink === '/populer'}>Populer</NavLink>
-                <NavLink to="/toptier" isActive={() => activeLink === '/toptier'}>TopTier</NavLink>
-                <NavLink to="/contact" isActive={() => activeLink === '/contact'}>Contact</NavLink>
+                <NavLink to="/kategorikucing" isActive={() => activeLink === '/kategorikucing'}>Adopsi</NavLink>
+                <NavLink to="/chat" isActive={() => activeLink === '/chat'}>Kontak</NavLink>
               </div>
             </div>
           )}
@@ -109,7 +105,7 @@ const NavLink = ({ to, isActive, children }) => (
     to={to}
     className={`${
       isActive() ? 'text-[#0C3D55] font-bold' : 'text-white'
-    } block px-3 py-2 rounded-md text-base  no-underline`}
+    } block px-3 py-2 rounded-md text-base no-underline`}
   >
     {children}
   </Link>

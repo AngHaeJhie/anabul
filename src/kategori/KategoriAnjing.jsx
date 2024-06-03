@@ -7,7 +7,7 @@ const KategoriAnjing = () => {
       <div className="h-80 relative [background:linear-gradient(0deg,#fcfeff,_#89bbd5_71.6%)]">
         <img
           className="h-72 flex absolute top-[40px] left-[577px] w-[283px] h-[271px] object-cover"
-          src="img/bichon.png"
+          src="img/bichon.webp"
         ></img>
       </div>
       <div>
@@ -18,7 +18,7 @@ const KategoriAnjing = () => {
       <section className="grid grid-cols-7 gap-0">
         <div className="px-9">
           <a
-            className="px-4 py-2 bg-[#0C3D55] text-[#FCFEFF] rounded-[9px]"
+            className="text-[#518CAA] px-4 py-2 bg-[#0C3D55] text-[#FCFEFF] rounded-[9px] no-underline"
             href=""
           >
             Semua Jenis
@@ -26,7 +26,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className="text-[#518CAA] px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline"
             href=""
           >
             Rotweiler
@@ -34,7 +34,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline text-[#518CAA]"
             href=""
           >
             Maltese
@@ -42,7 +42,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className="text-[#518CAA] px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline"
             href=""
           >
             Pomerania
@@ -50,7 +50,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className="text-[#518CAA] px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline"
             href=""
           >
             Bulldog
@@ -58,7 +58,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className="text-[#518CAA] px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline"
             href=""
           >
             Poodle
@@ -66,7 +66,7 @@ const KategoriAnjing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]"
+            className="text-[#518CAA] px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px] no-underline"
             href=""
           >
             Beagle
@@ -76,8 +76,11 @@ const KategoriAnjing = () => {
 
       <section className="grid grid-cols-[repeat(auto-fill,minmax(317px,1fr))] my-9 px-16 gap-8">
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
+              style={{
+                boxShadow: "4px 4px 4px 0px rgba(40, 98, 128, 0.40) inset",
+              }}
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
               src="img/poodle.webp"
               alt="Kucing Anggora"
@@ -93,7 +96,7 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
               src="img/pomerania.webp"
@@ -110,10 +113,10 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/Golden retriever.JPG"
+              src="img/Golden rotreiver.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -127,7 +130,7 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start  pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
               src="img/bulldog.webp"
@@ -144,10 +147,10 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/german stepherd.JPG"
+              src="img/german.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -161,10 +164,10 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/dachshund.JPG"
+              src="img/Dachshund.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -178,7 +181,7 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
               src="img/beagle.webp"
@@ -195,10 +198,10 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/husky.jpg"
+              src="img/husky.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -212,10 +215,10 @@ const KategoriAnjing = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="h-[519px] w-[313px] border border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pt-1 px-0.5 pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/labrador.JPG"
+              src="img/labrador.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
@@ -230,17 +233,17 @@ const KategoriAnjing = () => {
         </div>
       </section>
 
-
-
-      <div className="w-full relative shadow-[0px_4px_5px_rgba(0,_0,_0,_0.4)] h-[54px] text-center text-[20px] text-white font-poppins">
-        <div className="relative absolute top-[0px] left-[calc(50%_-_122px)] rounded-[20px] bg-steelblue w-[244px] h-[54px]">
-          <a
-            href=""
-            className="absolute top-[15px] left-[calc(50%_-_105px)] leading-[24px] font-semibold inline-block w-[209.1px]"
-          >
-            Lihat Selengkapnya
-          </a>
-        </div>
+      <div
+        className="mx-auto cursor-pointer py-3 pr-5 pl-[32px]  w-[253.9px] shadow-[4px_4px_4px_rgba(12,_61,_85,_0.4)] text-[#FCFEFF] bg-[#286280]
+         rounded-[20px] box-border flex flex-row items-start justify-center z-[1] border-[1px] border-solid border-[#286280]
+          hover:bg-[#0C3D55]"
+      >
+        <a
+          href=""
+          className="no-underline mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold font-heading-8-semibold text-gray text-left inline-block min-w-[65px] z-[1] mq450:text-[19px]"
+        >
+          Lihat Selengkapnya
+        </a>
       </div>
     </div>
   );

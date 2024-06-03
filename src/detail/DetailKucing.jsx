@@ -1,104 +1,61 @@
-import React, { useState } from 'react';
-import { GoLocation } from "react-icons/go";
-import { TbGenderGenderfluid } from "react-icons/tb";
-
+import React, { useState } from "react";
+import { FaLessThan } from "react-icons/fa6";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
+import { FaTransgender } from "react-icons/fa";
 const DetailKucing = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    
-      return (
-        <div className="w-full relative bg-steelblue-200 overflow-hidden flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
-          <main className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-gray flex flex-col items-end justify-start pt-[62px] px-0 pb-0 box-border gap-[51px] max-w-full mq750:gap-[25px] mq750:pt-[26px] mq750:box-border mq1025:pt-10 mq1025:box-border">
-        <div className="self-stretch h-[960px] relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-gray hidden" />
-        <section className="w-[1396px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-[40px] text-steelblue-300 font-prompt">
-          <div className="w-[1104px] flex flex-col items-end justify-start gap-[31px] max-w-full mq750:gap-[15px]">
-            <div className="w-[939px] flex flex-row items-start justify-end py-0 px-2.5 box-border max-w-full">
-              <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[20px] mq750:flex-wrap">
-                <h1 className="m-0 w-[148px] relative text-inherit font-bold font-inherit inline-block shrink-0 z-[1] mq450:text-5xl mq1025:text-[32px]">
-                  Alzena
-                </h1>
-                <div className="w-[434px] flex flex-col items-start justify-start pt-[25px] px-0 pb-0 box-border max-w-full text-left text-5xl text-darkslategray font-heading-8-semibold">
-                  <h3 className="m-0 self-stretch relative text-inherit font-semibold font-inherit z-[1] mq450:text-[19px]">
-                    Ras : Kucing Anggora
-                  </h3>
-                </div>
-              </div>
+  const [isOpen, setIsOpen] = useState(false);
+  const style = { color: "#286280", fontSize: "36px", marginRight: "13px" };
+  const less = { marginRight: "10px", marginLeft: "10px" };
+
+  return (
+    <div className=" px-[150px] flex py-3">
+      <div className="w-1/2 mr-[80px]">
+        <h1 className="text-[#286280] text-[40px] font-Poppins font-bold text-center mb-7"></h1>
+        <img
+          src="img/anggora.webp"
+          alt=""
+          className="w-[498px] h-[495px] rounded-[40px] object-cover "
+          style={{
+            boxShadow:
+              " 4px 4px 4px 0px rgba(12, 61, 85, 0.50), 4px 4px 4px 0px rgba(12, 61, 85, 0.50) inset",
+          }}
+        />
+      </div>
+      <div className="w-1/2 ">
+        <h1 className="text-[#0C3D55] text-[24px] font-Poppins py-7 font-semibold">
+          Ras : Kucing Anggora
+        </h1>
+        <p className="text-[#0C3D55] text-[20px] font-Poppins font-normal w-[444px] mb-12">
+          Memiliki ekor dan bulu lembut, panjang, mengembang yang indah, hidung
+          dan telinga yang panjang, kepala yang berbentuk segitiga.
+        </p>
+        <div>
+          <div class="specific-detail">
+            <div className="m-[25px] flex items-center text-[#0C3D55] text-[20px] font-Poppins font-semibold ">
+              <SlCalender style={style} /> Usia : <FaLessThan style={less} /> 1
+              Bulan
             </div>
-            <div className="self-stretch flex flex-row items-start justify-start gap-[140px] max-w-full text-left text-xl text-darkslategray font-heading-8-semibold mq750:gap-[35px] mq450:gap-[17px] mq1025:flex-wrap mq1100:gap-[70px]">
-              <img
-                className="h-[495px] flex-1 relative mb-9 rounded-[40px] max-w-full overflow-hidden object-cover min-w-[324px] min-h-[495px] z-[1]"
-                loading="lazy"
-                alt=""
-                src="img/anggora.webp"
-                style={{
-                  boxShadow:" 4px 4px 4px 0px rgba(12, 61, 85, 0.50), 4px 4px 4px 0px rgba(12, 61, 85, 0.50) inset"
-                }}
-              />
-              <div className="w-[466px] flex flex-col items-start justify-start gap-[39.7px] min-w-[466px] max-w-full mq750:gap-[20px] mq750:min-w-full mq1025:flex-1">
-                <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[22px] box-border max-w-full">
-                  <p className="m-0 flex-1 relative inline-block max-w-full z-[1] mq450:text-base">
-                    Memiliki ekor dan bulu lembut, panjang, mengembang yang
-                    indah, hidung dan telinga yang panjang, kepala yang
-                    berbentuk segitiga.
-                  </p>
-                </div>
-                <div className="w-[375px] flex flex-row items-start justify-start py-0 px-6 box-border max-w-full">
-                  <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[20px] mq450:flex-wrap">
-                    <div className="w-[140px] flex flex-row items-start justify-start gap-[36px]">
-                    <div className="h-[20px] w-[40px] relative z-[1]"> <TbGenderGenderfluid /> </div>
-                      <div className="flex-1 flex flex-col items-start justify-start pt-[3px] px-0 pb-0">
-                        <b className="self-stretch relative font-semibold z-[1] mq450:text-base">{`Usia : `}</b>
-                      </div>
-                    </div>
-                    <div className="w-[99px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border text-center">
-                      <div className="self-stretch relative font-medium z-[1] mq450:text-base">{`<1 Bulan`}</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-[344px] flex flex-row items-end justify-start gap-[23px] max-w-full mq450:flex-wrap">
-                  <div className="h-[20px] w-[40px] relative z-[1]"> <TbGenderGenderfluid /> </div>
-                  <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-5 box-border min-w-[162px]">
-                    <div className="self-stretch flex flex-row items-start justify-start">
-                      <div className="flex-1 relative font-semibold z-[2] mq450:text-base">
-                        Jenis Kelamin :
-                      </div>
-                      <div className="w-[85px] relative font-medium text-center inline-block shrink-0 z-[1] ml-[-32px] mq450:text-base">
-                        Betina
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-[379px] flex flex-row items-start justify-start py-0 px-6 box-border max-w-full">
-                  <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[20px] mq450:flex-wrap">
-                    <div className="w-[165px] flex flex-row items-start justify-start gap-[37px]">
-                      <div className="h-[20px] w-[40px] relative z-[1]"> <GoLocation /> </div>
-                      <div className="flex-1 flex flex-col items-start justify-start pt-[5px] px-0 pb-0">
-                        <b className="self-stretch relative font-semibold z-[1] mq450:text-base">
-                          Lokasi :
-                        </b>
-                      </div>
-                    </div>
-                    <div className="w-[103px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border text-center">
-                      <div className="self-stretch relative font-medium z-[1] mq450:text-base">
-                        Jakarta
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[38px]">
-                  <button className="cursor-pointer [border:none] pt-[18.8px] px-[29px] pb-[8.2px] bg-[transparent] w-[290px] flex flex-row items-start justify-start box-border relative whitespace-nowrap z-[1]">
-                    <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-[5px] bg-gray box-border border-[1px] border-solid border-darkslategray" />
-                    <div className="flex-1 relative text-[25px] font-medium font-heading-8-semibold text-darkslategray text-center mb-1.5 text-[#0C3D55] z-[1]">
-                      Adopsi Sekarang
-                    </div>
-                  </button>
-                </div>
-              </div>
+            <div className="m-[25px] flex items-center text-[#0C3D55] text-[20px] font-Poppins font-semibold my-[40px]">
+              <FaTransgender style={style} /> Jenis Kelamin : Betina
+            </div>
+            <div className="m-[25px] flex items-center text-[#0C3D55] text-[20px] font-Poppins font-semibold ">
+              <FaMapMarkerAlt style={style} /> Lokasi : Jakarta
             </div>
           </div>
-        </section>
-      </main>
+
+          <a
+            href="/chat"
+            className="no-underline cursor-pointer py-2 mt-8 mb-8 pr-5 pl-[22px] text-[25px] w-[297.9px] durat shadow-[4px_4px_4px_rgba(12,_61,_85,_0.4)] text-[#0C3D55] bg-[#fff]
+         rounded-[20px] box-border flex flex-row  justify-center z-[1] border-[1px] border-solid border-[#286280]
+          hover:bg-[#0C3D55] mx-auto font-Poppins px-2 text-3xl font-semibold font-heading-8-semibold  text-left inline-block  hover:text-[#fff] min-w-[65px] mq450:text-[19px]"
+          >
+            Adopsi Sekarang
+          </a>
         </div>
-      );
-    };
-    
-  export default DetailKucing;
+      </div>
+    </div>
+  );
+};
+
+export default DetailKucing;

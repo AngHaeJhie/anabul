@@ -59,7 +59,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='mb-0 pl-5 relative top-[14px]' >
+            <div className='mb-0 pl-5 relative top-[16px]' >
                 <div className='relative inline-block'>
                     <div className="absolute left-[27px] rounded-3xs bg-white w-[85px] h-[85px] bottom-2" />
                     <img src='img/Animal Shelter.webp' alt='sheter' className="w-32 h-32 absolute bottom-0 mb-0 z-[1]" />

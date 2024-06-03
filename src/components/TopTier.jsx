@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { PiArrowFatRight } from "react-icons/pi";
 
 
@@ -24,7 +25,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain" alt="" src=""> <PiArrowFatRight /> </div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className="w-[249px] relative h-[376px] shrink-0 cursor-pointer "  onClick={onGroupContainerClick}>
@@ -38,7 +43,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className=" w-[249px] relative h-[376px] shrink-0 cursor-pointer " onClick={onGroupContainerClick}>
@@ -52,7 +61,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className="w-[249px] relative h-[376px] shrink-0 cursor-pointer" onClick={onGroupContainerClick}>
@@ -66,7 +79,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className=" w-[249px] relative h-[376px] shrink-0 cursor-pointer " onClick={onGroupContainerClick}>
@@ -80,7 +97,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 				<div className="w-[249px] relative h-[376px] shrink-0 cursor-pointer" onClick={onGroupContainerClick}>
 					<div className="absolute top-[0px] left-[0px] rounded-[20px] w-[249px] h-[376px] bg-[#89BBD5]" alt="" src="" />
@@ -93,7 +114,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className="w-[249px] relative h-[376px] shrink-0 cursor-pointer" onClick={onGroupContainerClick}>
@@ -107,7 +132,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>					
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 
 				<div className="w-[249px] relative h-[376px] shrink-0 cursor-pointer" onClick={onGroupContainerClick}>
@@ -121,7 +150,11 @@ const Frame = () => {
 							<p className="text-[#0C3D55] [text-shadow:0px_2px_2px_#fcfeff]">Adopsi Sekarang</p>
 						</div>
 					</div>
-					<div className="absolute top-[335px] left-[199.9px] w-[40.2px] h-[40.2px] object-contain rounded-full" alt="" src=""> <PiArrowFatRight /></div>
+					<Link
+						to="/kategorikucing"
+						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
+						<PiArrowFatRight  style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
+					</Link>
 				</div>
 			</div></>);
 };

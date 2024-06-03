@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
 
@@ -57,7 +58,7 @@ const Contact = () => {
                 className="self-stretch h-[414px] relative max-w-full overflow-hidden shrink-0 object-cover"
                 loading="lazy"
                 alt=""
-                src="img/kontak.png"
+                src="img/contact.webp"
               />
             </div>
           </div>
@@ -68,9 +69,9 @@ const Contact = () => {
               className="cursor-pointer py-3.5 px-9 w-[214px] shadow-[0px_4px_7px_rgba(81,_140,_170,_0.56)] [backdrop-filter:blur(60px)] rounded-full px-5 py-3 mb-5 box-border flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-steelblue-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-skyblue bg-[#286280]"
               onClick={onGroupButtonClick}>
               <div className="h-[52px] w-[214px] relative shadow-[0px_4px_7px_rgba(81,_140,_170,_0.56)] [backdrop-filter:blur(60px)] rounded-full px-5 py-3 bg-steelblue-400 box-border hidden border-[1px] border-solid border-steelblue-200 " />
-              <div className="flex-1 relative text-xl leading-[20.8px] font-poppins text-gray text-center z-[1]">
-                Hubungi Kami
-              </div>
+              <Link to="/"className="flex-1 relative text-xl leading-[20.8px] font-poppins text-gray text-center z-[1] no-underline">
+              Hubungi Kami
+              </Link>
             </button>
          </div>
         </section>  
