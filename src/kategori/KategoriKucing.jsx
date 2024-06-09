@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 const KategoriKucing = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  
   return (
     <div>
       <div className="h-80 relative [background:linear-gradient(0deg,#fcfeff,_#89bbd5_71.6%)]">
@@ -75,8 +78,9 @@ const KategoriKucing = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-[repeat(auto-fill,minmax(317px,1fr))] my-9 px-16 gap-8">
+      <section className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] my-9 px-16 gap-8 font-Poppins">
         <div className="relative">
+          <Link to="/detailkucing" className="block">
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
@@ -84,7 +88,7 @@ const KategoriKucing = () => {
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">
-              <p className="self-stretch relative text-[15px] font-medium text-base text-[#0C3D55] pb-5">
+              <p className="self-stretch relative text-[15px] no-underline font-medium text-base text-[#0C3D55] pb-5">
                 Memiliki bulu panjang, lembut dan tebal.
               </p>
               <h2 className=" flex-1 relative text-[14px] font-bold text-[#0C3D55] ">
@@ -92,6 +96,7 @@ const KategoriKucing = () => {
               </h2>
             </div>
           </div>
+          </Link>
         </div>
         <div className="relative">
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
@@ -149,7 +154,7 @@ const KategoriKucing = () => {
           <div className="h-[519px] w-[313px] border-none p-0.5 border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/bengal.png"
+              src="img/bengal.webp"
               alt="Kucing Anggora"
             />
             <div className="isi-info px-5">

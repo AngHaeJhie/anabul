@@ -26,7 +26,7 @@ const Frame = () => {
 						</div>
 					</div>
 					<Link
-						to="/kategorikucing"
+						to="/detailkucing"
 						className="absolute top-[325px] left-[199.9px] w-[30px] h-[30px] bg-white rounded-full shadow-xl flex items-center justify-center" >
 						<PiArrowFatRight style={{ color: '#0C3D55', fontWeight: 'bold' }}/>
 					</Link>

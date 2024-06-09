@@ -14,7 +14,8 @@ module.exports = {
         'white': '#fff',
         'darkslategray': {
           '100': '#0c3d55',
-          '200': 'rgba(12, 61, 85, 0.8)'
+          '200': 'rgba(12, 61, 85, 0.8)',
+          '50':  'rgba(252, 254, 255, 0.9)'
         },
         'slategray': '#3c6477'
       },

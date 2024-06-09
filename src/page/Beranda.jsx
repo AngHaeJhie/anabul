@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
+import Populer from '../components/Populer';
+import Category from '../components/Category';
+import TopTier from'../components/TopTier';
 
 const Container = () => {
     const ras = ['Anggora', 'Persia', 'Scottish Fold', 'Pomerania', 'Bichon Frise', 'Lainnya'];
@@ -42,7 +45,7 @@ const Container = () => {
                         <img className="absolute top-[15px] left-[3px] rounded-t-none rounded-br-none rounded-bl-21xl w-[570px] h-[456px] object-cover" alt="" src="img/gambar1.webp" />
                         <div className="absolute top-20 left-[570px] leading-[26px] inline-block w-[515px] h-[238px]">
                             <div className="">
-                                <h2 className="m-0">Adopsi Cinta,</h2>
+                                <h2 className="mt-[10px]">Adopsi Cinta,</h2>
                                 <h2 className="m-0">Adopsi Hewan Peliharaan</h2>
                             </div>
                             <p>Situs adopsi hewan peliharaan kami adalah platform online penghubung orang-orang yang tertarik untuk mengadopsi hewan peliharaan dengan tempat penampungan hewan dan organisasi penyelamat di seluruh Indonesia. Kami memberikan informasi rinci tentang masing-masing dari mereka, termasuk riwayat kesehatan dan perilaku mereka, untuk membantu pengguna membuat keputusan terbaik.</p>
@@ -136,13 +139,16 @@ const Container = () => {
                             </div>
                         </div>
                         <div className="relative shadow-[2px_4px_4px_rgba(0,_0,_0,_0.4)] top-8 left-8 w-[220px] h-[50px] rounded-6xl  bg-steelblue-300">
-                            <a className="absolute text-white top-[calc(50%-_13px)] left-[calc(50%-_70px)] leading-[26px] inline-block w-[152px] h-[30px] no-underline" href='/formadopsi'>
+                            <a className="absolute text-white top-[calc(50%-_13px)] left-[calc(50%-_70px)] leading-[26px] inline-block w-[152px] h-[30px] no-underline" href='/form'>
                                 Tawarkan Adopsi
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <Category />
+            <Populer />
+            <TopTier />
         </div>
     );
 };

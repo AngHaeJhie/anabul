@@ -9,7 +9,7 @@ const Contact = () => {
   }, []);
 
   return (
-      <main className="self-stretch bg-white flex flex-col items-start justify-start pt-[51px] px-0 pb-0 box-border gap-[7px] max-w-full text-left ">
+      <main className="self-stretch bg-white flex flex-col items-start justify-start pt-[51px] px-0 pb-0 box-border gap-[7px] max-w-full text-left font-Poppins">
         <section className="w-[1422px] flex flex-row items-start justify-start py-0 px-[65px] box-border max-w-full text-left text-[36px] text-darkslategray font-heading-8-semibold mq750:pl-8 mq750:pr-8 mq750:box-border">
           <div className="flex-1 flex flex-row items-start justify-start gap-[85px] max-w-full lg:flex-wrap mq750:gap-[42px] mq450:gap-[21px]">
             <div className="w-[575px] flex flex-col items-start justify-start gap-[39px] min-w-[575px] max-w-full lg:flex-1 mq750:gap-[19px] mq750:min-w-full">
@@ -69,7 +69,7 @@ const Contact = () => {
               className="cursor-pointer py-3.5 px-9 w-[214px] shadow-[0px_4px_7px_rgba(81,_140,_170,_0.56)] [backdrop-filter:blur(60px)] rounded-full px-5 py-3 mb-5 box-border flex flex-row items-start justify-start whitespace-nowrap border-[1px] border-solid border-steelblue-200 hover:box-border hover:border-[1px] hover:border-solid hover:border-skyblue bg-[#286280]"
               onClick={onGroupButtonClick}>
               <div className="h-[52px] w-[214px] relative shadow-[0px_4px_7px_rgba(81,_140,_170,_0.56)] [backdrop-filter:blur(60px)] rounded-full px-5 py-3 bg-steelblue-400 box-border hidden border-[1px] border-solid border-steelblue-200 " />
-              <Link to="/"className="flex-1 relative text-xl leading-[20.8px] font-poppins text-gray text-center z-[1] no-underline">
+              <Link to="/beranda"className="flex-1 relative text-xl leading-[20.8px] font-poppins text-gray text-center z-[1] no-underline">
               Hubungi Kami
               </Link>
             </button>

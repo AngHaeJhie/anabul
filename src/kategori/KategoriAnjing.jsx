@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 const KategoriAnjing = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -74,8 +76,9 @@ const KategoriAnjing = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-[repeat(auto-fill,minmax(317px,1fr))] my-9 px-16 gap-8">
+      <section className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] my-9 px-16 gap-8 font-Poppins">
         <div className="relative">
+        <Link to="/detailanjing" className="block">
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
             <img
               style={{
@@ -94,6 +97,7 @@ const KategoriAnjing = () => {
               </h2>
             </div>
           </div>
+          </Link>
         </div>
         <div className="relative">
           <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
@@ -239,7 +243,7 @@ const KategoriAnjing = () => {
           hover:bg-[#0C3D55]"
       >
         <a
-          href="/kategorianjing"
+          href="/kategorikucing"
           className=" no-underline mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold font-heading-8-semibold text-gray text-left inline-block min-w-[65px] z-[1] mq450:text-[19px]"
         >
           Lihat Selengkapnya

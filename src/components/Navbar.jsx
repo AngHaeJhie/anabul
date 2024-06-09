@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiUser } from 'react-icons/fi';
+import { MdOutlineSettings } from "react-icons/md";
+import { FiHelpCircle } from "react-icons/fi";
+import { IoExitOutline } from "react-icons/io5";
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('');
@@ -28,19 +31,20 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+
   return (
     <nav className="bg-[#518CAB] relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img src="img/logo.webp" alt="ini logo ya ges yak" width={50} height={41} />
+              <img src="img/logo.webp" alt="logo" width={50} height={41} />
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <NavLink to="/" isActive={() => activeLink === '/'}>Beranda</NavLink>
+              <div className="ml-10 flex items-baseline space-x-4 font-Poppins">
+                <NavLink to="/beranda" isActive={() => activeLink === '/beranda'}>Beranda</NavLink>
                 <NavLink to="/kategorikucing" isActive={() => activeLink === '/kategorikucing'}>Adopsi</NavLink>
-                <NavLink to="/chat" isActive={() => activeLink === '/chat'}>Kontak</NavLink>
+                <NavLink to="/contact" isActive={() => activeLink === '/contact'}>Kontak</NavLink>
               </div>
             </div>
           </div>
@@ -68,10 +72,10 @@ const Navbar = () => {
           </div>
           {isOpen && (
             <div className="md:hidden">
-              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-Poppins">
                 <NavLink to="/" isActive={() => activeLink === '/'}>Beranda</NavLink>
                 <NavLink to="/kategorikucing" isActive={() => activeLink === '/kategorikucing'}>Adopsi</NavLink>
-                <NavLink to="/chat" isActive={() => activeLink === '/chat'}>Kontak</NavLink>
+                <NavLink to="/contact" isActive={() => activeLink === '/contact'}>Kontak</NavLink>
               </div>
             </div>
           )}
@@ -85,10 +89,20 @@ const Navbar = () => {
                 <FiUser className="h-8 w-8 rounded-full" />
               </button>
               {isOpen && (
-                <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 vertical-align">
                   <div className="py-1 text-gray" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
-                    <a href="#" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem">Profile</a>
-                    <a href="#" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem">Log out</a>
+                    <a href="#" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><FiUser />
+                     <span className="ml-3">Lihat profile</span>
+                    </a>
+                    <a href="#" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><MdOutlineSettings />
+                      <span className="ml-3">Pengaturan</span>
+                    </a>
+                    <a href="/contact" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><FiHelpCircle />
+                     <span className="ml-3">Bantuan</span>
+                    </a>
+                    <a href="/login" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><IoExitOutline />
+                      <span className="ml-3">Keluar</span>
+                    </a>
                   </div>
                 </div>
               )}

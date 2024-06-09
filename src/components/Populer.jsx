@@ -6,36 +6,79 @@ const Populer = () => {
     return (
         <div className="container-2">
 
+            {/* populer */}
             <h1 class="text-center text-3xl font-bold mb-8 text-[#0C3D55] font-Poppins">
-                Hewan Peliharaan Populer
+              Hewan Peliharaan Populer
             </h1>
+            <div className="w-full bg-[#0C3D55] h-[510px]">
+              <div className="p-[20px] pl-[30px] pb-[35px] flex ">
+                <div className="relative">
+                  <img
+                    className="w-[310.096px] h-[430.096px] relative object-cover"
+                    src="img/anggorabg.webp"
+                    alt=""
+                  />
+                  <p className="bottom-[45px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                    Anggora
+                  </p>
+                </div>
 
-            <div className="w-full relative bg-slategray h-[510px] text-left text-xl text-white font-Poppins">
-                <div className="absolute top-[40px] left-[67px] w-[310.1px] h-[430px] " >
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[430px] object-cover" alt="" src="img/anggora1.webp" />
-                    <p className="absolute top-[375px] left-[30px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Anggora</p>
+                <div className="mx-[20px]">
+                  <div className="relative">
+                    <img
+                      className=" rounded-3xl relative w-[310.096px] h-[222px]"
+                      src="img/pomerania.webp"
+                      alt=""
+                    />
+                    <p className="bottom-[1px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                      Pomerania
+                    </p>
+                  </div>
+                  <div className="mt-6 relative">
+                    <img
+                      className="rounded-3xl w-[310.096px] h-[222px]"
+                      src="img/scothis.webp"
+                      alt=""
+                    />
+                    <p className="bottom-[0px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                      Scothis Fold
+                    </p>
+                  </div>
                 </div>
-                <div className="absolute top-[40px] left-[397px] w-[310.1px] h-[222px]">
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[222px] object-cover" alt="" src="img/pomerania.webp" />
-                    <p className="absolute top-[168px] left-[30px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Pomerania</p>
+                <div className="relative">
+                  <img
+                    className="w-[310.096px] relative mr-[25px] h-[430.096px]"
+                    src="img/bichon.webp"
+                    alt=""
+                  />
+                  <p className="bottom-[45px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                    Bichon Frise
+                  </p>
                 </div>
-                <div className="absolute top-[274px] left-[397.59px] w-[310.1px] h-[196px]">
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[196px] object-cover" alt="" src="img/scothis.webp" />
-                    <p className="absolute top-[143px] left-[30px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Scottish Fold</p>
-                </div>
-                <div className="absolute top-[40px] left-[727px]  w-[310.1px] h-[430px]">
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[430px] object-cover" alt="" src="img/bichon.webp" />
-                    <p className="absolute top-[375px] left-[29px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Bichon Frise</p>
-                </div>
-                <div className="absolute top-[40px] left-[1063px]  w-[310.1px] h-[196px] " >
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[196px] object-cover" alt="" src="img/poodle.webp" />
-                    <p className="absolute top-[142px] left-[30px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Poodle</p>
-                </div>
-                <div className="absolute top-[248px] left-[1063px] w-[310.1px] h-[222px]">
-                    <img className="absolute top-[0px] left-[0px] rounded-4xl w-[310.1px] h-[222px] object-cover" alt="" src="img/persia.webp" />
-                    <p className="absolute top-[168px] left-[30px] leading-[26px] bg-[#0C3D55] rounded-full px-6 font-Poppins">Persia</p>
+                <div className="relative">
+                  <div className="relative">
+                    <img
+                      className="rounded-3xl relative w-[310.096px] h-[222px]"
+                      src="img/poodle.webp"
+                      alt=""
+                    />
+                    <p className="bottom-[1px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                      poodle
+                    </p>
+                  </div>
+                  <div className="mt-6 relative">
+                    <img
+                      className="rounded-3xl relative w-[310.096px] h-[222px]"
+                      src="img/persia.webp"
+                      alt=""
+                    />
+                    <p className="bottom-[0px] left-6 absolute bg-[#0C3D55] text-[#fff] rounded-full px-6 font-Poppins">
+                      persia
+                    </p>
+                  </div>
                 </div>
             </div>
+         </div>
         </div>
     );
 };
