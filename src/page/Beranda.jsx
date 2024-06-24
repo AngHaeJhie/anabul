@@ -6,7 +6,7 @@ import Populer from '../components/Populer';
 import Category from '../components/Category';
 import TopTier from'../components/TopTier';
 
-const Container = () => {
+const Beranda = () => {
     const ras = ['Anggora', 'Persia', 'Scottish Fold', 'Pomerania', 'Bichon Frise', 'Lainnya'];
     const jk = ['Jantan', 'Betina'];
     const usia = ['< 1 Bulan', '1-5 Bulan', '6-12 Bulan', '1-2 Tahun', '> 3 Tahun'];
@@ -50,8 +50,7 @@ const Container = () => {
                             </div>
                             <p>Situs adopsi hewan peliharaan kami adalah platform online penghubung orang-orang yang tertarik untuk mengadopsi hewan peliharaan dengan tempat penampungan hewan dan organisasi penyelamat di seluruh Indonesia. Kami memberikan informasi rinci tentang masing-masing dari mereka, termasuk riwayat kesehatan dan perilaku mereka, untuk membantu pengguna membuat keputusan terbaik.</p>
                         </div>
-                    </div>
-                        
+                    </div>          
                 </div>
 
             {/* Opsi Pilihan */}
@@ -153,4 +152,4 @@ const Container = () => {
     );
 };
 
-export default Container;
+export default Beranda;

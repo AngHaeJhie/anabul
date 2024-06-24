@@ -9,7 +9,7 @@ const KategoriKucing = () => {
     <div>
       <div className="h-80 relative [background:linear-gradient(0deg,#fcfeff,_#89bbd5_71.6%)]">
         <img
-          className="h-72 flex absolute top-[40px] left-[577px] w-[283px] h-[271px] object-cover"
+          className=" flex absolute top-[40px] left-[577px] w-[283px] h-[271px] object-cover"
           src="img/anggora.webp"
         ></img>
       </div>
@@ -20,9 +20,9 @@ const KategoriKucing = () => {
         </h1>
       </div>
       <section className="grid grid-cols-7 gap-0">
-        <div className="px-9">
+        <div className="px-6">
           <a
-            className="px-4 py-2 bg-[#0C3D55] text-[#FCFEFF] rounded-[9px]  no-underline text-[#518CAA]"
+            className="font-Poppins px-4 py-2 bg-[#0C3D55] text-[#FCFEFF] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Semua Jenis
@@ -30,7 +30,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className="font-Poppins px-7 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Anggora
@@ -38,7 +38,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className="font-Poppins px-7 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Persia
@@ -46,7 +46,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className="font-Poppins px-7 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Himalaya
@@ -54,7 +54,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className=" font-Poppins px-7 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Scothis Fold
@@ -62,7 +62,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className=" px-7 font-Poppins py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Maine Coon
@@ -70,7 +70,7 @@ const KategoriKucing = () => {
         </div>
         <div>
           <a
-            className=" px-5 py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
+            className=" px-7 font-Poppins py-1 box-border border-solid border-[#0C3D55] border-[1px] rounded-[9px]  no-underline text-[#518CAA]"
             href=""
           >
             Bengal
@@ -81,21 +81,21 @@ const KategoriKucing = () => {
       <section className="grid grid-cols-[repeat(auto-fill,minmax(400px,1fr))] my-9 px-16 gap-8 font-Poppins">
         <div className="relative">
           <Link to="/detailkucing" className="block">
-          <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
-            <img
-              className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
-              src="img/anggora.webp"
-              alt="Kucing Anggora"
-            />
-            <div className="isi-info px-5">
-              <p className="self-stretch relative text-[15px] no-underline font-medium text-base text-[#0C3D55] pb-5">
-                Memiliki bulu panjang, lembut dan tebal.
-              </p>
-              <h2 className=" flex-1 relative text-[14px] font-bold text-[#0C3D55] ">
-                Kucing Anggora
-              </h2>
+            <div className="h-[519px] w-[313px] border-none p-0.5 border-solid border-skyblue bg-[#89BBD5] rounded-[20px] box-border shrink-0 flex flex-col items-start justify-start pb-[19px] gap-[11.5px] shadow-[4px_4px_6px_rgba(40,98,128,0.8)]">
+              <img
+                className="h-[387px] w-full relative rounded-[20px] object-cover bg-white"
+                src="img/anggora.webp"
+                alt="Kucing Anggora"
+              />
+              <div className="isi-info px-5">
+                <p className="self-stretch relative text-[15px] no-underline font-medium text-base text-[#0C3D55] pb-5">
+                  Memiliki bulu panjang, lembut dan tebal.
+                </p>
+                <h2 className=" flex-1 relative text-[14px] font-bold text-[#0C3D55] ">
+                  Kucing Anggora
+                </h2>
+              </div>
             </div>
-          </div>
           </Link>
         </div>
         <div className="relative">
