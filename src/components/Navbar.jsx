@@ -79,7 +79,7 @@ const Navbar = () => {
               </div>
             </div>
           )}
-          <div className="hidden md:flex md:items-center md:justify-end md:flex-1 lg:w-0">
+          <div className="hidden md:flex md:items-center md:justify-end md:flex-1 lg:w-0 cursor-pointer">
             <div className="ml-3 relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
@@ -100,7 +100,7 @@ const Navbar = () => {
                     <a href="/contact" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><FiHelpCircle />
                      <span className="ml-3">Bantuan</span>
                     </a>
-                    <a href="/login" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><IoExitOutline />
+                    <a href="/" className="block px-4 py-2 text-sm text-[#0C3D55] hover:bg-[#0C3D55] hover:text-white no-underline" role="menuitem"><IoExitOutline />
                       <span className="ml-3">Keluar</span>
                     </a>
                   </div>

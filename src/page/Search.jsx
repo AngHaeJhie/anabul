@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FaBeer } from "react-icons/fa";
 import { FaLessThan } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
@@ -18,14 +17,14 @@ const Search = () => {
   return (
     <div className="max-w-[1000px] mx-auto p-[20px]">
       <div className="container grid grid-cols-[repeat(auto-fill,minmax(1000px))] gap-[40px]">
+        
         <div className="cat-cards rounded-[40px] bg-[#89bbd5] h-[490px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] duration-[0.5s] hover:translate-x-[10px] ">
           <div className=" cat-card flex py-[40px] px-[55px]">
             <div className="bagian-foto w-1/2 mr-[50px] ">
               <img
                 src="img/anggora1.webp"
                 alt=""
-                className="cat-image w-[423px] h-[423px] rounded-[40px] object-cover box-shadow: 3px 3px 3px black;
-"
+                className="cat-image w-[423px] h-[423px] rounded-[40px] object-cover box-shadow: 3px 3px 3px black;"
               />
             </div>
             <div className="bagian-info w-1/2 text-[ #0c3d55]">
@@ -55,8 +54,8 @@ const Search = () => {
               <a
                 href="/detailkucing"
                 className="mx-auto no-underline cursor-pointer py-3 pr-5 pl-[32px]  w-[253.9px] shadow-[4px_4px_4px_rgba(12,_61,_85,_0.4)] bg-[#fff]
-         rounded-[20px] box-border flex flex-row items-start justify-center z-[1] border-[1px] border-solid border-[#286280] hover:bg-[#0C3D55]  mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold 
-         font-heading-8-semibold text-[#0C3D55] text-[24px] text-left inline-block min-w-[65px] border-none hover:text-[#ffff] duration-300 z-[1] mq450:text-[19px]"
+                  rounded-[20px] box-border flex flex-row items-start justify-center z-[1] border-[1px] border-solid border-[#286280] hover:bg-[#0C3D55]  mx-auto font-Poppins px-2 py-1 bg-[] text-3xl font-semibold 
+                  font-heading-8-semibold text-[#0C3D55] text-[24px] text-left inline-block min-w-[65px] border-none hover:text-[#ffff] duration-300 z-[1] mq450:text-[19px]"
               >
                 Detail Hewan
               </a>

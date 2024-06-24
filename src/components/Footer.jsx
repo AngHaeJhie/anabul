@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="bg-[#518CAB] text-white font-Poppins absolute w-full">
             <div className="container mx-auto py-4 pr-1 pl-2">
                 <div className="flex flex-wrap justify-between gap-8">
-                    <div className="pr-3 pl-10">
+                    <div className="ml-[100px]  pr-3 pl-10">
                         <div className="flex items-center gap-2">
                             <img src="img/logo.webp" alt="Logo" className="w-12 h-12" />
                             <div>
@@ -40,7 +40,7 @@ const Footer = () => {
                             <li>Bantuan</li>
                         </ul>
                     </div>
-                    <div className="w-1/4 pr-5">
+                    <div className="ml  -[250px] w-1/4 pr-5">
                         <div className="font-bold text-[#0C3D55] pl-5">Hubungi Kami</div>
                         <ul class="pl-6">
                             <li className="flex items-center gap-2">
